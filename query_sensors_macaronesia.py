@@ -11,11 +11,12 @@ from influxdb import InfluxDBClient
 
 ### Load environment variables --------
 load_dotenv()
-host = os.getenv("host")
-port = int(os.getenv("port"))
-username = os.getenv("username")
-password = os.getenv("password")
-database = os.getenv("database")
+host = os.getenv("HOST")
+port = int(os.getenv("PORT"))
+username = os.getenv("USERNAME")
+password = os.getenv("PASSWORD")
+database = os.getenv("DATABASE")
+
 
 ### Constants ----------
 OUTPUT_DIR = Path("output")
