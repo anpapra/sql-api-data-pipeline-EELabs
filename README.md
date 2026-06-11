@@ -60,8 +60,3 @@ python query_sensor_data.py
 Database names, sensor identifiers, locations, and credentials have been anonymized for demonstration purposes. The repository reflects the data-ingestion and processing workflow used in a scientific research environment.
 </p>
 
-<h2>License</h2>
-
-<p>
-MIT License
-</p>
